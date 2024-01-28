@@ -16,17 +16,17 @@
             background-color: rgb(255, 87, 51);
             color: #fff ;
             text-align: left;
-            padding: 20px;
+            padding: 10px;
         }
         .header-sections {
             display: flex;
             justify-content: space-around;
-            margin: 20px;
+            margin-left: 40px;
         }
 
         .header-section {
             flex: 1;
-            margin: 0 10px;
+
         }
 
         section {
@@ -35,10 +35,17 @@
             margin-left:50px;
             margin-right:50px;
         }
-       .move-down{
-            margin-top:50px;
+        img {
+            float: right; /* Align the image to the right */
+            margin: 0 0 10px 10px; /* Optional margin for spacing around the image */
         }
-        
+      hr {
+            color: #333; /* Line color */
+            background-color: #333; /* Line color for browsers that support it */
+            height: 1px; /* Line thickness */
+            border: none; /* Remove default border */
+            margin: 0; /* Adjust margin as needed */
+        }
        .move-right {
             margin-top: 5px;
             margin-bottom: 0;
@@ -148,17 +155,12 @@
         <div class="header-sections">
             <div class="header-section">
                 <h1>Zhixin(Shona) TIAN</h1>
-                <p>looking for a project manager CDI </p>
-                <p>Starting from July 2024</p>
-            </div>
-
-            <div class="header-section">
-            
-                <p class="move-down">Email: zhixin.tian@essec.edu</p>
+                <p>Email: zhixin.tian@essec.edu</p>
                 <p>Telephone: +33 (0)6 31 04 96 74</p>
                 <p> LinkedIn: https://www.linkedin.com/in/zhixintian</p>
             </div>
-            
+
+           
        <div class="header-section">
                 <image src=https://media.licdn.com/dms/image/D4D03AQHO4VUHMUuuIA/profile-displayphoto-shrink_400_400/0/1699431155577?e=1712188800&v=beta&t=vqY8xmtgYn1nHxnq1ik6po_0EJc2r2CfulUdHtp94TI width="150">
                
@@ -168,6 +170,7 @@
     
     <section class="EDUCATION">
         <h2>EDUCATION</h2>
+        <hr>
         <title>Styled Table</title>
         <table class="table1 "> 
             <tr>
@@ -188,6 +191,7 @@
  
     <section class="professional experience">
         <h2>PROFESSIONAL EXPERIENCE</h2>
+        <hr>
         <title>Styled Table</title>
         <table class="table2"> 
             <tr>
@@ -245,6 +249,7 @@ Premiere Pro. The final video was globally broadcasted throughout the entire com
 
     <section class="LANGUAGES AND SKILLS">
         <h2>LANGUAGES AND SKILLS</h2>
+        <hr>
         <table class="table2"> 
             <tr>
                 <td class="column1">Languages</td>
@@ -257,8 +262,8 @@ Premiere Pro. The final video was globally broadcasted throughout the entire com
     </table>
        
     </section>
-
-
+<br>
+<br>
 
 </body>
 </html>
