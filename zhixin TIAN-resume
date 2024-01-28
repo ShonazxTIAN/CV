@@ -43,10 +43,36 @@
 </head>
 <body>
 
+   
     <header>
-        <h1>Zhixin(Shona) TIAN</h1>
-        <p>Lookinbg for a project manager from July 2024</p>
+       
+        <div class="header-sections">
+            <div class="header-section">
+                <h1>zhixin(Shona) TIAN</h1>
+                <p>looking for a project manager CDI </p>
+                <p>Starting from July 2024</p>
+            </div>
+
+            <div class="header-section">
+    
+                <p>Email: zhixin.tian@essec.edu</p>
+                <p>Telephone: +33 (0)6 31 04 96 74</p>
+                <p>LinkedIn: https://www.linkedin.com/in/zhixintian</p>
+            </div>
+
+            
+        </div>
     </header>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
 
 
 
