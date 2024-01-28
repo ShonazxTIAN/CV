@@ -80,6 +80,38 @@ LinkedIn: https://www.linkedin.com/in/zhixintian</p>
 
     <section class="EDUCATION">
         <h2>EDUCATION</h2>
+<style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .text-format1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .text-format2 {
+            font-style: italic;
+            color: #2ecc71;
+        }
+
+        .text-format3 {
+            text-decoration: underline;
+            color: #e74c3c;
+        }
+    </style>
+
+div class="container">
+        <div class="text-format1">Bold Text</div>
+        <div class="text-format2">Italic Text</div>
+        <div class="text-format3">Underlined Text</div>
+    </div>
+ <p>Since 2021 ESSEC Business School Grande École, Master in Management
+
         <ul>
             <li>HTML5</li>
             <li>CSS3</li>
