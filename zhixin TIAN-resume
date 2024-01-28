@@ -143,8 +143,15 @@
             }
         @page {
             size: A4;
-            margin: 1cm;
             }
+        footer {
+            background-color:rgb(255, 87, 51);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -264,6 +271,7 @@ Premiere Pro. The final video was globally broadcasted throughout the entire com
     </section>
 <br>
 <br>
-
+<footer>
 </body>
 </html>
+
