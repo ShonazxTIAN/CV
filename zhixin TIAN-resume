@@ -13,8 +13,8 @@
         }
 
         header {
-            background-color: #333;
-            color: rgb(255, 87, 51) ;
+            background-color: rgb(255, 87, 51);
+            color: #fff ;
             text-align: center;
             padding: 20px;
         }
@@ -44,9 +44,11 @@
 <body>
 
     <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
+        <h1>Zhixin(Shona) TIAN</h1>
+        <p>Lookinbg for a project manager from July 2024</p>
     </header>
+
+
 
     <section class="contact">
         <h2>Contact Information</h2>
